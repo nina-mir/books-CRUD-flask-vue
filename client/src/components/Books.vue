@@ -257,7 +257,7 @@ export default {
         });
     },
     getBooks() {
-      const path = "http://localhost:5001/books";
+      const path = "/api/books";
       axios
         .get(path)
         .then((res) => {
