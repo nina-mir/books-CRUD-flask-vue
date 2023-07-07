@@ -243,7 +243,7 @@ export default {
   },
   methods: {
     addBook(payload) {
-      const path = "http://localhost:5001/books";
+      const path = "/api/books";
       axios
         .post(path, payload)
         .then(() => {
